@@ -1,0 +1,1 @@
+# azure-schema-registry-sample
