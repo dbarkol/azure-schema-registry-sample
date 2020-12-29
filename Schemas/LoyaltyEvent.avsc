@@ -1,0 +1,20 @@
+{
+    "type": "record",
+    "name": "CustomerLoyalty",
+    "namespace": "zohan.schemaregistory.events",
+    "fields": [
+        {
+            "name": "CustomerId",
+            "type": "int"
+        },
+        {
+            "name": "PointsAdded",
+            "type": "int"
+        },
+        {
+            "name": "Description",
+            "type": "string"
+        }
+    ]
+}
+   
