@@ -12,4 +12,14 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Azure.Kafka.SchemaRegistry.Avro\Microsoft.Azure.Kafka.SchemaRegistry.Avro.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="cacert.pem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
