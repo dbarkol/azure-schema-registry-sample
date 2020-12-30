@@ -24,8 +24,8 @@ namespace Zohan.SchemaRegistry.Producer
             // Initialize the producer configuration properties           
             var config = InitializeProducerConfig();
 
-            // Create an instance of the value serialize that will
-            // use the schema from the registry.
+            // Create an instance of the serializer that will
+            // use the schema for the messages.
             var valueSerializer = InitializeValueSerializer();
 
             try
