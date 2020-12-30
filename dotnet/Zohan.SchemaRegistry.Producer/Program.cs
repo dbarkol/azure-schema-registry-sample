@@ -5,7 +5,7 @@ using System;
 using System.Configuration;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using zohan.schemaregistory.events;
+using zohan.schemaregistry.events;
 
 namespace Zohan.SchemaRegistry.Producer
 {

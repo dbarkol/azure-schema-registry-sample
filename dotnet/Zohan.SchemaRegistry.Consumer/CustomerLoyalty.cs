@@ -5,7 +5,7 @@
 //    is regenerated
 // </auto-generated>
 // ------------------------------------------------------------------------------
-namespace zohan.schemaregistory.events
+namespace zohan.schemaregistry.events
 {
 	using System;
 	using System.Collections.Generic;
@@ -15,9 +15,9 @@ namespace zohan.schemaregistory.events
 	
 	public partial class CustomerLoyalty : ISpecificRecord
 	{
-		public static Schema _SCHEMA = Avro.Schema.Parse("{\"type\":\"record\",\"name\":\"CustomerLoyalty\",\"namespace\":\"zohan.schemaregistory.even" +
-				"ts\",\"fields\":[{\"name\":\"CustomerId\",\"type\":\"int\"},{\"name\":\"PointsAdded\",\"type\":\"i" +
-				"nt\"},{\"name\":\"Description\",\"type\":\"string\"}]}");
+		public static Schema _SCHEMA = Avro.Schema.Parse("{\"type\":\"record\",\"name\":\"CustomerLoyalty\",\"namespace\":\"zohan.schemaregistry.event" +
+				"s\",\"fields\":[{\"name\":\"CustomerId\",\"type\":\"int\"},{\"name\":\"PointsAdded\",\"type\":\"in" +
+				"t\"},{\"name\":\"Description\",\"type\":\"string\"}]}");
 		private int _CustomerId;
 		private int _PointsAdded;
 		private string _Description;
