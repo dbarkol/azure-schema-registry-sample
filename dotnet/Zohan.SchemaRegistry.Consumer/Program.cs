@@ -4,14 +4,13 @@ using Microsoft.Azure.Kafka.SchemaRegistry.Avro;
 using System;
 using System.Configuration;
 using System.Threading;
-using System.Threading.Tasks;
 using zohan.schemaregistry.events;
 
 namespace Zohan.SchemaRegistry.Consumer
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Press any key to begin consuming new events");
             Console.ReadKey();

@@ -3,7 +3,6 @@ using Confluent.Kafka;
 using Microsoft.Azure.Kafka.SchemaRegistry.Avro;
 using System;
 using System.Configuration;
-using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using zohan.schemaregistry.events;
 
